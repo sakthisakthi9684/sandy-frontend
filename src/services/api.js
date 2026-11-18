@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL =
-  (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').replace(/\/$/, '');
+  (import.meta.env.VITE_API_URL || 'https://sandy-backend-uo1c.onrender.com/api').replace(/\/$/, '');
 
 const api = axios.create({
   baseURL: API_BASE_URL,
